@@ -1,7 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { StatusBar, View } from 'react-native';
 import {
-  useFonts,
   Rubik_300Light,
   Rubik_400Regular,
   Rubik_500Medium
