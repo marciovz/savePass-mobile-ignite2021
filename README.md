@@ -1,38 +1,71 @@
-<p align="center">
-  <img alt="Rocketseat Education" src="https://avatars.githubusercontent.com/u/69590972?s=200&v=4" width="100px" />
-</p>
+<h1 align="center">SAVEPASS</h1>
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=Rocketseat&message=Education&color=8257e5&labelColor=202024" alt="Rocketseat Project" />
-  <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257e5&labelColor=202024" alt="License"></a>
-</p>
+## Introdução
+
+O SAVEPASS é um aplicativo para gerenciamento de senhas, onde o usuário pode cadastrar senhas para suas aplicações e pesquisa-las quando precisar.
+
+É um projeto que possuí o intuíto de aplicar os conceitos básicos aprendidos no módulo 2 do curso Ignite React Native da Rocketseat versão 2021.
+
+<div align="center">
+  <img alt="Todo Aplication" src="./assets/images/home.jpeg" width="150px" />
+  <img alt="Todo Aplication" src="./assets/images/cadastro.jpeg" width="150px" />
+  <img alt="Todo Aplication" src="./assets/images/pesquisa.jpeg" width="150px" />
+</div>
+
+## Tecnologias 
+
+- React Native
+- Expo
+- Typescript
+- Styled Components
+- Jest
+- Testing-Library
+- AsyncStorage
+- StackNavigation
+- useForm
+- Yup
 
 
-## 💻 Projeto
+## Requisitos
 
-ignite-template-react-native-savepass
-
-## 📝 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-<p align="center">
-  Feito com 💜 by Rocketseat
-</p>
+- Nodejs
+- Expo Cli
+- Emulador Android Studio ou dispositivo físico
+- Expo Go
 
 
-<!--START_SECTION:footer-->
+## Instalação
 
-<br />
-<br />
+```sh
+# Fazer o clone do projeto em uma máquina local
+git clone https://github.com/marciovz/savepass-mobile-ignite2021.git
+```
 
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
+```sh
+# Acessa a pasta do projeto
+cd savepass-mobile-ignite2021
+```
 
-<!--END_SECTION:footer-->
+```sh
+# Rodar a instalação das dependências do projeto
+npm install
+```
+
+## Rodando a aplicação
+
+Abrir o emulador ou conectar um dispositivo para rodar a aplicação
+
+```sh
+# Rodar o bundle da aplicação.
+npx expo start
+```
+Abrir a aplicação escaneando o QRCode no aplicativo Expo Go
+
+## Melhorias
+
+- Autenticação de usuário
+- Criptografia das senhas
+- Guardar as senhas em um banco de dados
+- Copiar para área de transfência
+
 
